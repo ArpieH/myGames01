@@ -2,6 +2,7 @@ package services;
 
 import domain.Borrow;
 import domain.Borrower;
+import lombok.Data;
 import repositorie.BorrowRepository;
 
 import java.util.List;

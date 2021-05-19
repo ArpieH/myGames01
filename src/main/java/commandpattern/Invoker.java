@@ -1,8 +1,9 @@
 package commandpattern;
 
 import lombok.Getter;
+@Getter
+public enum Invoker {
 
-public enum Invoker {@Getter
 
 
 
