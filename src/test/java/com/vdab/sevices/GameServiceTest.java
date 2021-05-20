@@ -1,10 +1,10 @@
 package com.vdab.sevices;
 
-import domain.Game;
+import com.vdab.domain.Game;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import repositorie.NotFoundException;
-import services.GameServices;
+import com.vdab.repositorie.NotFoundException;
+import com.vdab.services.GameServices;
 
 public class GameServiceTest {   private GameServices gameService = new GameServices();
     @Test

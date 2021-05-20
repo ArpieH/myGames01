@@ -1,6 +1,6 @@
 package com.vdab.sevices;
 
-import domain.Borrow;
+import com.vdab.domain.Borrow;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,8 +9,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import repositorie.BorrowRepository;
-import services.BorrowService;
+import com.vdab.repositorie.BorrowRepository;
+import com.vdab.services.BorrowService;
 
 import java.util.ArrayList;
 import java.util.Date;

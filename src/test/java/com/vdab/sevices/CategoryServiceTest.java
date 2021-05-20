@@ -1,9 +1,9 @@
 package com.vdab.sevices;
 
-import domain.Category;
+import com.vdab.domain.Category;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import services.CategoryService;
+import com.vdab.services.CategoryService;
 
 public class CategoryServiceTest {    private CategoryService categoryService= new CategoryService();
     @Test
